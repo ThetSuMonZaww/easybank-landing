@@ -1,0 +1,81 @@
+@import "node_modules/bootstrap/scss/bootstrap";
+
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=DM+Sans:wght@400;500;700&family=Josefin+Sans:wght@300;400;500&family=Kumbh+Sans:wght@400;700&family=League+Spartan:wght@500;600;700&family=Lexend+Deca&family=Montserrat:wght@300;400;500;600&family=Padauk:wght@400;700&family=Public+Sans:wght@300;400;700&display=swap');
+
+$font-family: 'Public Sans', sans-serif;
+$font-base-size: 14px;
+
+h1{
+  font-family: $font-family;
+}
+
+.navbar{
+  z-index: 1;
+}
+
+.navbar-nav{
+  margin-left: 200px;
+}
+
+.nav-link, p, .card-text{
+  font-size: $font-base-size;
+}
+
+.btn-invite{
+  background: linear-gradient(90deg, rgba(48,196,109,1) 95%, rgba(43,174,191,1) 100%);
+  font-size: 14px;
+}
+
+.img-desktop{
+  width: 800px;
+  position: relative;
+  right: -120px;
+  top: -170px;
+}
+
+.img-phone{
+  height: 600px;
+  position: relative;
+  top: -720px;
+  right: -310px;
+}
+
+.div-1{
+  height: 420px;
+}
+
+.card-img-top{
+  height: 180px;
+}
+
+.author{
+  font-size: 10px;
+}
+
+.card-title{
+  font-size: 15px;
+}
+
+.card-text{
+  font-size: 12px;
+}
+
+.div-footer{
+  background-color: #2d314e;
+}
+
+.footer-logo{
+  fill: white!important;
+}
+
+.social-icon{
+  height: 10px;
+}
+
+
+@media only screen
+and (max-width : 390px) {
+  .navbar-nav{
+    margin-left:0px;
+  }
+}
